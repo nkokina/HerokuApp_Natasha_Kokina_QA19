@@ -23,12 +23,10 @@ public class DropdownTest extends BaseTest {
         List<String> actualOptions = options.stream().map(option -> option.getText()).toList();
         Assert.assertEquals(expectedOptions, actualOptions, "Not all dropdown elements");
         select.selectByValue("1");
-        select.selectByIndex(0);
         String expectedOptionOne = "Option 1";
         String actualOptionOne = select.getFirstSelectedOption().getText();
         Assert.assertEquals(expectedOptionOne, actualOptionOne, "Option 1 didn't get out");
         select.selectByValue("2");
-        select.selectByIndex(2);
         String expectedOptionTwo = "Option 2";
         String actualOptionTwo = select.getFirstSelectedOption().getText();
         Assert.assertEquals(expectedOptionTwo, actualOptionTwo, "Option 2 didn't get out");
