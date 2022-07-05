@@ -1,0 +1,87 @@
+.table {
+text-align:center;
+	width: 25%;
+	margin-bottom: 10px;
+	border: 2px solid Violet;
+	border-collapse: collapse;
+}
+.table th {
+	font-weight: bold;
+	padding: 10px;
+	background: violet;
+	border: 1px solid DodgerBlue;
+}
+.table td {
+	border: 1px solid DodgerBlue;
+	padding: 10px;
+}
+h1 {
+background-color:Tomato;
+font-family:SEGOE PRINT;
+font-size:300%;
+color:blue;
+text-align:center;
+}
+.student{
+font-family:segoe print;
+font-size:150%;
+color:red;
+}
+
+.img{
+text-align: center;
+}
+.administration{
+font-family:chicago;
+min-width: 100px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: blue;
+  color:white;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.contact{
+font-family:chicago;
+min-width: 100px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background:blue;
+  color: white;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.submit{
+text-align: right;
+}
+.submit-knopka{
+font-family:CURSIVE;
+min-width: 100px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: gray;
+  color: white;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.result{
+font-family:braggadocio;
+font-size:100%;
+color:purple;
+}
+.specialty{
+font-family:braggadocio;
+font-size:100%;
+color:purple;
+}
+.university{
+font-family:braggadocio;
+font-size:100%;
+color:blue;
+}
