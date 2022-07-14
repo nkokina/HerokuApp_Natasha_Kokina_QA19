@@ -3,6 +3,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 
 
 public class ContextMenuTest extends BaseTest {
@@ -14,6 +15,8 @@ public class ContextMenuTest extends BaseTest {
         WebElement hotShop = driver.findElement(By.id("hot-spot"));
         actions.contextClick(hotShop).perform();
         Alert alert = driver.switchTo().alert();
+        String alertText = alert.getText();
+        System.out.println(alertText);
         alert.accept();
         driver.switchTo().defaultContent();
     }
