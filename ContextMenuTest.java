@@ -16,7 +16,7 @@ public class ContextMenuTest extends BaseTest {
         actions.contextClick(hotShop).perform();
         Alert alert = driver.switchTo().alert();
         String alertText = alert.getText();
-        System.out.println(alertText);
+        Assert.assertTrue(alertText.equals("You selected a context menu"), "The text is not correct");
         alert.accept();
         driver.switchTo().defaultContent();
     }
